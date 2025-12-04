@@ -10,7 +10,7 @@ public class Dashboard_first extends javax.swing.JFrame {
          
          jTextFieldUsername.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
-                if (jTextFieldUsername.getText().equals("Enter your username....")) {
+                if (jTextFieldUsername.getText().equals("Please Enter your username....")) {
                     jTextFieldUsername.setText("");
                 }
             }
